@@ -33,7 +33,7 @@ for (let user of users) {
         const obj = JSON.parse(localStorage.getItem('favorites')) || []
         obj.push({name: user.name, age: user.age, status: user.status})
         localStorage.setItem('favorites', JSON.stringify(obj))
+        toFavoritesBtn.disabled = true
     }
-
 
 }
