@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+a:hover {
+    color: sienna;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anek Gujarati', sans-serif;
+    /*padding: 0 10px;*/
+    width: 60vw;
+    margin: 0 auto;
+
+}
+
+h1 {
+    letter-spacing: 5px;
+    color: teal;
+    margin-top: 10px;
+}
+
+.toggle{
+visibility: hidden;
+}
+
